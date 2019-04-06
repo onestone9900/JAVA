@@ -10,9 +10,7 @@ local.properties
 .settings
 .loadpath
 .recommenders
-.project
 .externalToolBuilders
-.classpath
 .factorypath
 .buildpath
 .target
