@@ -7,7 +7,6 @@ local.properties
 *~.nib
 *.launch
 .metadata
-.settings
 .loadpath
 .recommenders
 .externalToolBuilders
