@@ -17,7 +17,7 @@ public class SendPostMethod2 {
     	
     	
     	
-    	//urlSetting
+    	//urlSetting(!)
     	URL urlObject = null;
 		try {
 			urlObject = new URL(url);
