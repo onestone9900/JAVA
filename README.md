@@ -1,5 +1,5 @@
 # JAVA 
 
-# Java ClassPath Setting
+# JVM
 
  - java -cp "/lib/*" TestJava
