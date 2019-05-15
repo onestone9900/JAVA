@@ -11,6 +11,8 @@
    - ERROR - 일반적으로 에러가 발생했을 때 사용합니다.
    - FATAL - 위험한 에러가 발생했을 때 사용합니다.
  
+   
+   
 # Log4j 구조
 
 - Logger : 로깅 메세지를 Appender에 전달
@@ -19,7 +21,8 @@
  
 - Layout : 형식 layout을 결정
 
-
+  
+  
 # Log4j 
  
  - private static Logger logger = Logger.getLogger(My.class);
