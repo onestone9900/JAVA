@@ -1,3 +1,6 @@
+# Log4j 설치
+ - [아파치](https://logging.apache.org/log4j/2.x/download.html)
+
 # Log
  - DEBUG < INFO < WARN < ERROR < FATAL
    
