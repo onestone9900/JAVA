@@ -5,12 +5,12 @@
  
  - private static Logger logger = Logger.getLogger(My.class);
 
- - logger.fatal("log4j:logger.fatal()");
+ - logger.fatal("fatal()");
 
- - logger.error("log4j:logger.error()");
+ - logger.error("error()");
 
- - logger.warn("log4j:logger.warn()");
+ - logger.warn("warn()");
 
- - logger.info("log4j:logger.info()");
+ - logger.info("info()");
 
- - logger.debug("log4j:logger.debug()");
+ - logger.debug("debug()");
