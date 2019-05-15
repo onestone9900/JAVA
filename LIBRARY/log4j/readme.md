@@ -16,9 +16,7 @@
 # Log4j 구조
 
 - Logger : 로깅 메세지를 Appender에 전달
- 
 - Appender : 로그의 출력위치를 결정(파일, 콘솔, DB 등)
- 
 - Layout : 형식 layout을 결정
 
   
