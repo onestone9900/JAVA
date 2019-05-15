@@ -1,5 +1,6 @@
 # Log
  - DEBUG < INFO < WARN < ERROR < FATAL
+   
    - DEBUG
    - INFO
    - WARN - 경고로 주의가 필요한 상황에 사용합니다.
