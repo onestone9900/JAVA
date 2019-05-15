@@ -1,0 +1,2 @@
+# Log
+ - DEBUG < INFO < WARN < ERROR < FATAL
