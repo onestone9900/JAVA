@@ -1,11 +1,10 @@
-# JAVA 
 
 # JVM
 
  - java -cp "/lib/*" TestJava
  
  
- # Clean Code
+ # Java Clean Code
  
 - 클래스 이름( 명사, 명사구 )
 
