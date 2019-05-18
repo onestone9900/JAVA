@@ -2,7 +2,7 @@
 # JVM
 
  - java -cp "/lib/*" TestJava
- 
+ - java -jar testjava.jar TestClass args[0].properties
  
  # Java Clean Code
  
