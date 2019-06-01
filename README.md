@@ -3,7 +3,9 @@
 
  - java -cp "/lib/*" TestJava
  - java -jar testjava.jar TestClass args[0].properties
- 
+  
+   
+   
  # Java Clean Code
  
 - 클래스 이름( 명사, 명사구 )
@@ -27,7 +29,9 @@
 - 변수명 정하기
   - 해법영역
   - 문제영역
-
+  
+  
+   
 # EFFECTIVE JAVA
  1. 생성자 대신 정적 팩터리 메서드를 고려하라
  2. 생성자에 매개변수가 많다면 빌더를 고려하라
@@ -38,3 +42,5 @@
  7. 다 쓴 객체 참조를 해제하라
  8. finalizer와 cleaner 사용을 피하라
  9. try-finally보다는 try-with-resources를 사용하라
+ 
+   
