@@ -1,4 +1,4 @@
-package write;
+package wordUnit.output;
 
 import java.io.BufferedWriter;
 import java.io.File;
