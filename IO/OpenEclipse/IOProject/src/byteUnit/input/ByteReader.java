@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class Reader {
+public class ByteReader {
 	
 	public static void readFile(String fileName) {
 		

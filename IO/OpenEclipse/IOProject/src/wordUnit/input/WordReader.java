@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Reader {
+public class WordReader {
 	
 	public static void readFile(String fileName) {
 		
@@ -14,13 +14,12 @@ public class Reader {
 		StringBuffer sb = new StringBuffer();
 		BufferedReader br = null;
 
-		
 		try {
 			br = new BufferedReader(new FileReader(new File(fileName)));
 		} catch (FileNotFoundException e) {
 			System.err.println("파일이 존재하지 않습니다.");
 		}
-		
+
 		try {
 			while((data = br.readLine()) != null) {
 				sb.append(data);
@@ -53,7 +52,7 @@ public class Reader {
 //
 //		 이 부분도 생각 많이 해야합니다. finally 구문에서 생기는 Exception이 그 전에 생긴
 //		 Exception을 잡아 먹어버림... ㅎㅎ 그래서 try 안에서 발생한 부분을 파악 할 수 없음
-
+//	 	 Reader 인터페이스에  BufferedReader를 담으면 readLine()함수를 사용할 수 없음.
 
 
 	}

@@ -4,29 +4,30 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Writer;
 
-public class Writer {
+public class WordWriter {
 
 	public static void writeFile(String fileName, String word) {
 		
-		BufferedWriter bw=null;
+		Writer writer = null;
 		
 		 try {
-			bw = new BufferedWriter(new FileWriter(new File(fileName)));
+			 writer = new BufferedWriter(new FileWriter(new File(fileName)));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	
+
 		try {
-			bw.write(word);
-			bw.close();
+			writer.write(word);
+			writer.close();
 		} catch (IOException e) {
-			if(bw!=null) {
+			if(writer!=null) {
 				try {
-					bw.close();
+					writer.close();
 				} catch (IOException e1) {
 					e1.printStackTrace();
-				}	
+				}
 			}
 		}
 	}

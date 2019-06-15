@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
-public class Writer {
+public class ByteWriter {
 
 	public static byte[] stringToByteArray(String word) {
 		
