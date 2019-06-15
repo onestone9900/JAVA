@@ -13,9 +13,10 @@ public class Reader {
 		String data;
 		StringBuffer sb = new StringBuffer();
 		BufferedReader br = null;
+
 		
 		try {
-			 br = new BufferedReader(new FileReader(new File(fileName)));
+			br = new BufferedReader(new FileReader(new File(fileName)));
 		} catch (FileNotFoundException e) {
 			System.err.println("파일이 존재하지 않습니다.");
 		}
@@ -41,7 +42,7 @@ public class Reader {
 	}
 	
 	public static void main(String[] args) {
-		readFile("C:/test/test.txt");
+		readFile("file/WordTest.txt");
 		
 //		자바는 기본적으로 모든 문자집합에 대하여 16비트로 구성된 유니코드는 사용한다		
 

@@ -7,35 +7,32 @@ import java.io.IOException;
 
 public class Writer {
 
-	public static void writeFile(String fileName) {
-	
-		BufferedWriter bw = null;
-		String contents = "입력내용";
+	public static void writeFile(String fileName, String word) {
 		
-		try {
+		BufferedWriter bw=null;
+		
+		 try {
 			bw = new BufferedWriter(new FileWriter(new File(fileName)));
 		} catch (IOException e) {
-			System.out.println("파일을 읽는데 실패하였습니다.");
-		}
-		try {
-			bw.write(contents);
-		} catch (IOException e) {
 			e.printStackTrace();
-		}finally {
+		}
+	
+		try {
+			bw.write(word);
+			bw.close();
+		} catch (IOException e) {
 			if(bw!=null) {
 				try {
 					bw.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}	
 			}
 		}
-		
 	}
 	
 	public static void main(String[] args) {
-		writeFile("C:/test/test.txt");
-
+		writeFile("file/WordTest.txt", "테스트파일2");
 	}
 
 }
