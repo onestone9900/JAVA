@@ -1,5 +1,4 @@
-
-# JVM
+ # JVM
  - TestJava.java, TestJava.class
  - java -cp "/lib/*" TestJava
  - java -jar testjava.jar TestClass args[0].properties
@@ -48,3 +47,10 @@
    
  - 모든 객체의 공통 메서드  
    10. equals는 일반 규약을 지켜 재정의하라
+
+
+# JDK
+ - jdk5
+ - jdk6
+ - jdk7
+ - jdk8
