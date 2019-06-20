@@ -1,8 +1,10 @@
 
 # JVM
-
+ - TestJava.java, TestJava.class
  - java -cp "/lib/*" TestJava
  - java -jar testjava.jar TestClass args[0].properties
+ - javac -d . TestJava.java
+ - java -cp . 패키지.클래스명
   
    
    
