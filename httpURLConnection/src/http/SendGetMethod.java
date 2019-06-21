@@ -1,4 +1,4 @@
-package http;
+﻿package http;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -26,7 +26,7 @@ public class SendGetMethod {
 		conn.setConnectTimeout(10000);
 		conn.setReadTimeout(5000);
 		conn.setDoInput(true);  // Server 통신에서 입력 가능한 상태로 만듬
-		//conn.setDoOutput(true); // Server 통신에서 출력 가능한 상태로 만듦.. 사용시 405에러
+		//conn.setDoOutput(true); // Server 통신에서 입력 가능한 상태로 만듬 405에러
 		
         conn.connect();
 

@@ -1,4 +1,4 @@
-package http;
+﻿package http;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -24,8 +24,8 @@ public class SendPostMethod {
 		conn.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
 		conn.setConnectTimeout(10000);
 		conn.setReadTimeout(5000);
-		conn.setDoInput(true);  // Server 통신에서 입력 가능한 상태로 만듦
-		//conn.setDoOutput(true); // Server 통신에서 출력 가능한 상태로 만듦.. 사용시 405에러
+		conn.setDoInput(true);  // Server 통신에서 입력 가능한 상태 (default = true)
+		//conn.setDoOutput(true); // Server 통신에서 출력 가능한 상태 (default = true) 사용시 405에러
         
 		DataOutputStream wr=null;
 		

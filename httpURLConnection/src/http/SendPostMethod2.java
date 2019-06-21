@@ -1,4 +1,4 @@
-package http;
+ï»¿package http;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -25,7 +25,7 @@ public class SendPostMethod2 {
 			throw e;
 		}
 		
-		//openConnection »ı¼º
+		//openConnection ìƒì„±
     	HttpURLConnection conn=null;
     	try {
 			conn = (HttpURLConnection)urlObject.openConnection();
@@ -38,7 +38,7 @@ public class SendPostMethod2 {
 	        }
 		}
 		
-    	//connection Setting(º¯ÇÏ´Â ºÎºĞ)
+    	//connection Setting(ë³€í•˜ëŠ” ë¶€ë¶„)
     	try {
 			conn.setRequestMethod("POST");
 		} catch (ProtocolException e) {
@@ -54,8 +54,8 @@ public class SendPostMethod2 {
     	//conn.setRequestProperty("Content-Length", String.valueOf(postDataBytes.length));
     	conn.setConnectTimeout(10000);
     	conn.setReadTimeout(5000);
-    	conn.setDoInput(true);  // Server Åë½Å¿¡¼­ ÀÔ·Â °¡´ÉÇÑ »óÅÂ (default = true)
-    	conn.setDoOutput(true); // Server Åë½Å¿¡¼­ Ãâ·Â °¡´ÉÇÑ »óÅÂ (default = true)
+    	conn.setDoInput(true);  // Server í†µì‹ ì—ì„œ ì…ë ¥ ê°€ëŠ¥í•œ ìƒíƒœ (default = true)
+    	//conn.setDoOutput(true); // Server í†µì‹ ì—ì„œ ì¶œë ¥ ê°€ëŠ¥í•œ ìƒíƒœ (default = true)
     	
     	DataOutputStream wr=null;
         try {
@@ -79,7 +79,7 @@ public class SendPostMethod2 {
 	        }
 		}
 		
-        // Status Code Definitions Http»óÅÂÄÚµå »óÅÂÄÚµå¿¡ µû¸¥
+        // Status Code Definitions Httpìƒíƒœì½”ë“œ ìƒíƒœì½”ë“œì— ë”°ë¥¸
         // https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
         int status = 0;
 		try {
