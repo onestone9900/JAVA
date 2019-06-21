@@ -24,8 +24,8 @@ public class SendPostMethod {
 		conn.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
 		conn.setConnectTimeout(10000);
 		conn.setReadTimeout(5000);
-		conn.setDoInput(true);  // Server Åë½Å¿¡¼­ ÀÔ·Â °¡´ÉÇÑ »óÅÂ·Î ¸¸µê
-		conn.setDoOutput(true); // Server Åë½Å¿¡¼­ Ãâ·Â °¡´ÉÇÑ »óÅÂ·Î ¸¸µê
+		conn.setDoInput(true);  // Server í†µì‹ ì—ì„œ ì…ë ¥ ê°€ëŠ¥í•œ ìƒíƒœë¡œ ë§Œë“¦
+		//conn.setDoOutput(true); // Server í†µì‹ ì—ì„œ ì¶œë ¥ ê°€ëŠ¥í•œ ìƒíƒœë¡œ ë§Œë“¦.. ì‚¬ìš©ì‹œ 405ì—ëŸ¬
         
 		DataOutputStream wr=null;
 		
@@ -34,7 +34,7 @@ public class SendPostMethod {
         wr.flush();
         wr.close();
         
-        // Status Code Definitions Http»óÅÂÄÚµå »óÅÂÄÚµå¿¡ µû¸¥
+        // Status Code Definitions Httpìƒíƒœì½”ë“œ ìƒíƒœì½”ë“œì— ë”°ë¥¸
         // https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
         int status = conn.getResponseCode();
         if(status == HttpURLConnection.HTTP_OK || status == HttpURLConnection.HTTP_CREATED || status == HttpURLConnection.HTTP_ACCEPTED){
