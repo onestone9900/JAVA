@@ -21,16 +21,16 @@ public class SendGetMethod {
         conn.setRequestMethod("GET");
         conn.setRequestProperty("Connection","Keep-Alive");
         conn.setRequestProperty("Accept-Charset","UTF-8");
-        conn.setRequestProperty("Cache-Control","no-cache"); //Ä³½ÃµÈ µ¥ÀÌÅÍ¸¦ »ç¿ëÇÏÁö ¾Ê°í ¸Å¹ø ¼­¹ö·ÎºÎÅÍ ´Ù½Ã ¹ŞÀ½
+        conn.setRequestProperty("Cache-Control","no-cache"); //ìºì‹œëœ ë°ì´í„°ë¥¼ ì‚¬ìš©í•˜ì§€ ì•Šê³  ë§¤ë²ˆ ì„œë²„ë¡œë¶€í„° ë‹¤ì‹œ ë°›ìŒ
         conn.setRequestProperty("Accept-Charset","application/json");
 		conn.setConnectTimeout(10000);
 		conn.setReadTimeout(5000);
-		conn.setDoInput(true);  // Server Åë½Å¿¡¼­ ÀÔ·Â °¡´ÉÇÑ »óÅÂ·Î ¸¸µë
-		conn.setDoOutput(true); // Server Åë½Å¿¡¼­ Ãâ·Â °¡´ÉÇÑ »óÅÂ·Î ¸¸µë
+		conn.setDoInput(true);  // Server í†µì‹ ì—ì„œ ì…ë ¥ ê°€ëŠ¥í•œ ìƒíƒœë¡œ ë§Œë“¬
+		//conn.setDoOutput(true); // Server í†µì‹ ì—ì„œ ì¶œë ¥ ê°€ëŠ¥í•œ ìƒíƒœë¡œ ë§Œë“¦.. ì‚¬ìš©ì‹œ 405ì—ëŸ¬
 		
         conn.connect();
 
-        // Status Code Definitions Http»óÅÂÄÚµå »óÅÂÄÚµå¿¡ µû¸¥
+        // Status Code Definitions Httpìƒíƒœì½”ë“œ ìƒíƒœì½”ë“œì— ë”°ë¥¸
         // https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
         int status = conn.getResponseCode();
         if(status == HttpURLConnection.HTTP_OK || status == HttpURLConnection.HTTP_CREATED || status == HttpURLConnection.HTTP_ACCEPTED){
