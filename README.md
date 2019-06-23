@@ -1,4 +1,13 @@
- # JVM
+
+# Java Test
+ - hashCode 비교 => Equals 비교
+ - 시간측정
+    - long start = System.currentTimeMillis();
+    - long end = System.currentTimeMillis();
+    - long result = ( end - start ) / 1000.0;
+    - System.out.println( "알고리즘 실행 시간 : " + result );
+ 
+# JVM
  - TestJava.java, TestJava.class
  - java -cp "/lib/*" TestJava
  - java -jar testjava.jar TestClass args[0].properties
