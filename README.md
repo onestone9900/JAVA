@@ -7,10 +7,15 @@
  - 인스턴스 비교 ( hashCode 비교 => Equals 비교 ) 
  - 시간측정
  <code>
+ 
       long start = System.currentTimeMillis();  
+ 
       long end = System.currentTimeMillis();  
+      
       long result = ( end - start ) / 1000.0;  
+      
       System.out.println( "알고리즘 실행 시간 : " + result );  
+      
  </code>
  
 # JVM
