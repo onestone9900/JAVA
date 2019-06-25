@@ -1,6 +1,6 @@
 # Java 코딩 규칙
- - (구글 javaGuide)[https://google.github.io/styleguide/javaguide.html]
- - (한글 Guide)[https://myeonguni.tistory.com/1596]
+ - [구글 javaGuide](https://google.github.io/styleguide/javaguide.html)
+ - [한글 Guide](https://myeonguni.tistory.com/1596)
 
 
 # Java Test
