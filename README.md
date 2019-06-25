@@ -8,7 +8,6 @@
  - 시간측정
  
 <pre>
- 
       long start = System.currentTimeMillis();  
  
       long end = System.currentTimeMillis();  
