@@ -1,11 +1,17 @@
+# Java 코딩 규칙
+ - (구글 javaGuide)[https://google.github.io/styleguide/javaguide.html]
+ - (한글 Guide)[https://myeonguni.tistory.com/1596]
+
 
 # Java Test
  - 인스턴스 비교 ( hashCode 비교 => Equals 비교 ) 
  - 시간측정
-    - long start = System.currentTimeMillis();
-    - long end = System.currentTimeMillis();
-    - long result = ( end - start ) / 1000.0;
-    - System.out.println( "알고리즘 실행 시간 : " + result );
+ <code>
+      long start = System.currentTimeMillis();
+      long end = System.currentTimeMillis();
+      long result = ( end - start ) / 1000.0;
+      System.out.println( "알고리즘 실행 시간 : " + result );
+ </code>
  
 # JVM
  - TestJava.java, TestJava.class
