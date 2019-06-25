@@ -9,11 +9,8 @@
  
 <pre>
       long start = System.currentTimeMillis();  
- 
       long end = System.currentTimeMillis();  
-      
       long result = ( end - start ) / 1000.0;  
-      
       System.out.println( "알고리즘 실행 시간 : " + result );  
 </pre>
  
