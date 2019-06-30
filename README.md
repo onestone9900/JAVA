@@ -61,12 +61,12 @@
    8. finalizer와 cleaner 사용을 피하라
    9. try-finally보다는 try-with-resources를 사용하라
    
- - 모든 객체의 공통 메서드  
-   10. equals는 일반 규약을 지켜 재정의하라
-   11. equals를 재정의 하려거든 hashCode도 재정의하라
-   12. toString을 항상 재정의하라
-   13. clone 재정의는 주의해서 진행하라
-   14. Comparable을 구현할지 고려하라
+ - 모든 객체의 공통 메서드    
+   10. equals는 일반 규약을 지켜 재정의하라  
+   11. equals를 재정의 하려거든 hashCode도 재정의하라  
+   12. toString을 항상 재정의하라  
+   13. clone 재정의는 주의해서 진행하라  
+   14. Comparable을 구현할지 고려하라  
    
 
 # JDK
