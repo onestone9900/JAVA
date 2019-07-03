@@ -1,3 +1,5 @@
+
+
 # Java 코딩 규칙
  - [구글 javaGuide](https://google.github.io/styleguide/javaguide.html)
  - [한글 Guide](https://myeonguni.tistory.com/1596)
@@ -79,3 +81,7 @@
  - jdk6
  - jdk7
  - jdk8
+ 
+ # URL 주의 사항
+  - 한글 파라미터로 값을 날릴때는 UTF-8로 인코딩을 한다.
+  - URLEncoder.encode("한글", "UTF-8");
