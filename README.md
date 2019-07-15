@@ -1,4 +1,7 @@
+
+
 # 필요한 조엘 테스트  
+
  1. 버전 관리시스템 ( git )  
  2. 빌드 자동화 ( Maven )  
  3. 버그 추적시스템을 운영하고 있습니까?   
@@ -8,11 +11,13 @@
 
 
 # Java 코딩 규칙
+
  - [구글 javaGuide](https://google.github.io/styleguide/javaguide.html)
  - [한글 Guide](https://myeonguni.tistory.com/1596)
 
 
 # Java Test
+
  - 인스턴스 비교 ( hashCode 비교 => Equals 비교 ) 
  - 시간측정
  
@@ -23,15 +28,16 @@
       System.out.println( "알고리즘 실행 시간 : " + result );  
 </pre>
  
+ 
 # JVM
+
  - TestJava.java, TestJava.class
  - java -cp "/lib/*" TestJava
  - java -jar testjava.jar TestClass args[0].properties
  - javac -d . TestJava.java
  - java -cp . 패키지.클래스명
   
-   
-   
+  
  # Java Clean Code
  
 - 클래스 이름( 명사, 명사구 )
@@ -63,6 +69,7 @@
 - 가로 형식 맞추기
 
 # EFFECTIVE JAVA
+
  - 객체의 생성과 파괴
    1. Public 생성자 대신 정적 팩터리 메서드를 고려하라
    2. 생성자에 매개변수가 많다면 빌더를 고려하라
@@ -75,7 +82,6 @@
    9. try-finally보다는 try-with-resources를 사용하라
    
  - 모든 객체의 공통 메서드    
- 
    10. equals는 일반 규약을 지켜 재정의하라  
    11. equals를 재정의 하려거든 hashCode도 재정의하라  
    12. toString을 항상 재정의하라  
@@ -83,7 +89,6 @@
    14. Comparable을 구현할지 고려하라  
 
 - 클래스와 인터페이스
-
    15. 클래스와 멤버의 접근 권한을 최소화하라
    16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라
    17. 변경 가능성을 최소화하라
@@ -105,8 +110,17 @@
    32. 제네릭과 가변인수를 함께 쓸 때는 신중하라  
    33. 타입 안전 이종 컨테이너를 고려하라.  
    
+- 열거 타입과 애너테이션
+   34. int 상수 대신 열거 타입을 사용하라.
+   35. ordinal 메서드 대신 인스턴스 필드를 사용하라
+   36. 비트 필드 대신 EnumSet을 사용하라.
+   37. ordinal 인덱싱 대신 EnumMap을 사용하라.
+   38. 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라.
+   39. 명명 패턴보다 애너테이션을 사용하라.
+   40. @Override 애너테이션을 일관되게 사용하라
+   41. 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라.
+   
 # JDK
- - jdk5
  - jdk6
  - jdk7
  - jdk8
