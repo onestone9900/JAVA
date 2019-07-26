@@ -35,12 +35,12 @@ public class BuilderPattern {
 		}
 
 		public Information builder(){
-			return new Information(this);
+			return new BuilderPattern(this);
 		}
 
 	}
 
-	private Information(Builder builder){
+	private BuilderPattern(Builder builder){
 		item1 = builder.item1;
 		item2 = builder.item2;
 		item3 = builder.item3;
