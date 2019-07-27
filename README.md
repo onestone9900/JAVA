@@ -65,7 +65,7 @@
 - null을 전달, 반환하지 마라
   - null을 전달, 반환하는 함수는 null체크 때문에 코드를 더럽게 만든다.
   
-- Log4j2 혹은 logback 익히기( Logger.log(e.getMessage))
+- Log4j2 혹은 logback( Logger.log(e.getMessage))
 - 변수명 정하기
   - 해법영역
   - 문제영역
