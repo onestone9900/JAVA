@@ -1,9 +1,9 @@
 # 객체지향 5대 원칙
- - SRP
- - OCP
- - LSP
- - ISP
- - DIP
+ - SRP (The Single Responsibility Principle)
+ - OCP (The Open Close Principle)
+ - LSP (The Liskov Substitution Principle)
+ - ISP (The Interface Segregation Principle)
+ - DIP (The Dependency Inversion Principle)
 
 # 필요한 조엘 테스트  
 
