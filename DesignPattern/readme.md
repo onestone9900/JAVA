@@ -1,3 +1,23 @@
 # DesignPattern
 - BuilderPattern
 - MVC model2 + Service
+- 스트래티지 패턴 (Strategy Pattern)
+- 어댑터 패턴 (Adapter Pattern)
+- 템플릿 메소드 패턴 (Template Method Pattern)
+- 팩토리 메소드 (Factory Method Pattern)
+- 싱글톤 패턴 (Singleton Pattern)
+- 프로토 타입 패턴 (Prototype Pattern)
+- 추상 팩토리 패턴 (Abstract Factory Pattern)
+- 브릿지 패턴 (Bridge Pattern)
+- 컴포짓 패턴 (Composite Pattern)
+- 데코레이터 패턴 (Decorator Pattern)
+- 방문자 패턴 (Visitor Pattern)
+- 책임사슬 패턴 (Chain of Resposibility)
+- 퍼사드 패턴 (Facade)
+- 옵저버 패턴 (Observer)
+- 중재자 패턴 (Mediator)
+- 상태 패턴(State Pattern)
+- 메멘토 패턴 ( Memento Pattern)
+- 플라이웨이트 패턴 ( Flyweight Pattern)
+- 프록시 패턴 ( Proxy Pattern)
+- 커맨드 패턴 ( Command Pattern)
