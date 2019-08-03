@@ -12,30 +12,17 @@ public class WordReader {
 		
 		String data;
 		StringBuffer sb = new StringBuffer();
-		BufferedReader br = null;
 
-		try {
-			br = new BufferedReader(new FileReader(new File(fileName)));
-		} catch (FileNotFoundException e) {
-			System.err.println("파일이 존재하지 않습니다.");
-		}
-
-		try {
+		try(BufferedReader br = new BufferedReader(new FileReader(new File(fileName)));){
 			while((data = br.readLine()) != null) {
 				sb.append(data);
 			}
-		} catch (IOException e1) {
+		} catch (FileNotFoundException e) {
+			System.err.println("파일이 존재하지 않습니다.");
+		} catch (IOException e) {
 			System.err.println("파일을 읽는 도중 오류가 발생했습니다."); 
-		} finally {
-		
-			try {
-				if(br!=null) {
-					br.close();	
-				}
-			} catch (IOException e1) {
-				e1.printStackTrace();
-			}
 		}
+
 		System.out.println(sb.toString());
 				
 	}

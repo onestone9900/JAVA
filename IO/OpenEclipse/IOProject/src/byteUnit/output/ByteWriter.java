@@ -17,27 +17,15 @@ public class ByteWriter {
 	
 	public static void writeFile(String fileName, byte[] word) {
 		
-		OutputStream os = null;
-		
-		try {
-			os= new  BufferedOutputStream (new FileOutputStream(new File(fileName)));
+		try(OutputStream os= new  BufferedOutputStream (new FileOutputStream(new File(fileName)))){
+			os.write(word);	
 		} catch (FileNotFoundException e) {
 			System.err.println("파일이 존재하지 않습니다.");
 			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 	
-		try {
-			os.write(word);
-			os.close();
-		} catch (IOException e) {
-			if(os!=null) {
-				try {
-					os.close();
-				} catch (IOException e1) {
-					e1.printStackTrace();
-				}	
-			}
-		}
 	}
 	
 	public static void main(String[] args) {

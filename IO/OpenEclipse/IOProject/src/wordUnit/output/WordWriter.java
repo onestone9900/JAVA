@@ -10,26 +10,12 @@ public class WordWriter {
 
 	public static void writeFile(String fileName, String word) {
 		
-		Writer writer = null;
-		
-		 try {
-			 writer = new BufferedWriter(new FileWriter(new File(fileName)));
+		try(Writer writer = new BufferedWriter(new FileWriter(new File(fileName)))) {
+			writer.write(word);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
-		try {
-			writer.write(word);
-			writer.close();
-		} catch (IOException e) {
-			if(writer!=null) {
-				try {
-					writer.close();
-				} catch (IOException e1) {
-					e1.printStackTrace();
-				}
-			}
-		}
+		
 	}
 	
 	public static void main(String[] args) {
