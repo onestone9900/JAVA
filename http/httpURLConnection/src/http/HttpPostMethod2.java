@@ -10,7 +10,7 @@ import java.net.ProtocolException;
 import java.net.URL;
 import java.nio.charset.Charset;
 
-public class SendPostMethod2 {
+public class HttpPostMethod2 {
 	
 	
 	public String sendPost(String url, String body) throws MalformedURLException, IOException {

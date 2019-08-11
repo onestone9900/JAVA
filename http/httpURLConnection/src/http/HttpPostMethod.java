@@ -8,7 +8,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.Charset;
 
-public class SendPostMethod {
+public class HttpPostMethod {
 	
 	
 	public String sendPost(String url, String body) throws IOException{

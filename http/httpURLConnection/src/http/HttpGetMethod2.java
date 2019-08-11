@@ -7,7 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.Charset;
 
-public class SendGetMethod2 {
+public class HttpGetMethod2 {
 	
 	
     public String sendGet(String url) throws IOException{
