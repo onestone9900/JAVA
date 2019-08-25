@@ -21,5 +21,5 @@
 - 플라이웨이트 패턴 ( Flyweight Pattern)
 - 프록시 패턴 ( Proxy Pattern)
 - 커맨드 패턴 ( Command Pattern)
-
-- 싱글톤 패턴 (Singleton Pattern)
+  
+- (x)싱글톤 패턴 (Singleton Pattern) <- Spring Bean을 사용
