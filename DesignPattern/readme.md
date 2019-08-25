@@ -1,11 +1,11 @@
 # DesignPattern
-- BuilderPattern
-- MVC model2 + Service
+- (-)BuilderPattern
+- (-)MVC model2 + Service
+- (-)탬플릿 콜백 패턴 (Template Callback Pattern)
 - 스트래티지 패턴 (Strategy Pattern)
 - 어댑터 패턴 (Adapter Pattern)
 - 템플릿 메소드 패턴 (Template Method Pattern)
 - 팩토리 메소드 (Factory Method Pattern)
-- 싱글톤 패턴 (Singleton Pattern)
 - 프로토 타입 패턴 (Prototype Pattern)
 - 추상 팩토리 패턴 (Abstract Factory Pattern)
 - 브릿지 패턴 (Bridge Pattern)
@@ -21,3 +21,5 @@
 - 플라이웨이트 패턴 ( Flyweight Pattern)
 - 프록시 패턴 ( Proxy Pattern)
 - 커맨드 패턴 ( Command Pattern)
+
+- 싱글톤 패턴 (Singleton Pattern)
