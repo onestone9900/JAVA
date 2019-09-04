@@ -6,6 +6,7 @@ import static org.junit.Assert.assertThat;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
+import java.util.Arrays;
 
 import org.junit.Before;
 import org.junit.Test;

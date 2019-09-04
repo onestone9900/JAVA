@@ -1,4 +1,4 @@
-﻿package http;
+﻿package urlconnection;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -12,10 +12,7 @@ import java.nio.charset.Charset;
 
 public class HttpPostMethod2 {
 	
-	
 	public String sendPost(String url, String body) throws MalformedURLException, IOException {
-    	
-    	
     	
     	//urlSetting(!)
     	URL urlObject = null;
