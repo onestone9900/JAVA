@@ -1,10 +1,10 @@
 
 # Version  
-java          1.8  
-spring        4.3.25.RELEASE  
-spring boot   2.1.7.RELEASE  
-Spring Tools  4 4-4.3.2.RELEASE  
-Eclipse       2019‑06  
+- java          1.8  
+- spring        4.3.25.RELEASE  
+- spring boot   2.1.7.RELEASE  
+- Spring Tools  4 4-4.3.2.RELEASE  
+- Eclipse       2019‑06  
 
 # 객체지향 5대 원칙
  - SRP (The Single Responsibility Principle)
