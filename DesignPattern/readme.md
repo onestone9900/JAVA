@@ -10,7 +10,7 @@
 - 추상 팩토리 패턴 (Abstract Factory Pattern)
 - 브릿지 패턴 (Bridge Pattern)
 - 컴포짓 패턴 (Composite Pattern)
-- 데코레이터 패턴 (Decorator Pattern)
+- (-)데코레이터 패턴 (Decorator Pattern)
 - 방문자 패턴 (Visitor Pattern)
 - 책임사슬 패턴 (Chain of Resposibility)
 - 퍼사드 패턴 (Facade)
