@@ -1,8 +1,10 @@
 # DesignPattern
-- (-)BuilderPattern : 생성자의 파라미터가 3개 이상이면 사용을 고려해본다.
 - (-)MVC model2 + Service + Dao
-- (-)탬플릿 콜백 패턴 (Template Callback Pattern)
+- (-)빌더 패턴 (BuilderPattern)
+    - 생성자의 파라미터가 3개 이상인 경우
+- (-)탬플릿 콜백 패턴 (Template Callback Pattern)  
 - 스트래티지 패턴 (Strategy Pattern)
+    - 같은 문제를 해결하는 여러 방식이 클래스별로 캡슐화 되어 있고 이들을 필요할 때 교체해야할 때 사용해야 하는 경우
 - 어댑터 패턴 (Adapter Pattern)
 - 템플릿 메소드 패턴 (Template Method Pattern)
 - 팩토리 메소드 (Factory Method Pattern)
