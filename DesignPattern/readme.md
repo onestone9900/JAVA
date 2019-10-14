@@ -5,6 +5,8 @@
 - (-)탬플릿 콜백 패턴 (Template Callback Pattern)  
 - 스트래티지 패턴 (Strategy Pattern)
     - 같은 문제를 해결하는 여러 방식이 클래스별로 캡슐화 되어 있고 이들을 필요할 때 교체해야할 경우
+- 스테이트 패턴 (State Pattern)
+    - 상태에 따라 동일한 작업이 다른 방식으로 실행될 때 해당 상태가 작업을 수행하도록 
 - 어댑터 패턴 (Adapter Pattern)
 - 템플릿 메소드 패턴 (Template Method Pattern)
 - 팩토리 메소드 (Factory Method Pattern)
