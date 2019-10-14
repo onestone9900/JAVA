@@ -27,8 +27,8 @@
 - 플라이웨이트 패턴 (Flyweight Pattern)
 - 프록시 패턴 ( Proxy Pattern)
 - 어댑터 패턴 (Adapter Pattern)
-  
-    
+
+---
       
         
 - (x)싱글톤 패턴 (Singleton Pattern) <- Spring Bean을 사용
