@@ -1,6 +1,6 @@
 # DesignPattern
 - (-)BuilderPattern : 생성자의 파라미터가 3개 이상이면 사용을 고려해본다.
-- (-)MVC model2 + Service
+- (-)MVC model2 + Service + Dao
 - (-)탬플릿 콜백 패턴 (Template Callback Pattern)
 - 스트래티지 패턴 (Strategy Pattern)
 - 어댑터 패턴 (Adapter Pattern)
