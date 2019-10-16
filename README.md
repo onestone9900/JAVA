@@ -73,8 +73,8 @@
   
 - [Logback](https://github.com/sowen2819/JAVA/blob/master/LogBack.md)
 - 변수명 정하기
-  - 해법영역
-  - 문제영역
+  - 해법영역 ( 프로그래밍 )
+  - 문제영역 ( 서비스 분야 )
   
 - 적절한 행길이 유지
 - 가로 형식 맞추기
