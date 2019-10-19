@@ -6,6 +6,9 @@
 - Spring Tools  4 4-4.3.2.RELEASE  
 - Eclipse       2019‑06  
 
+# 아키텍쳐 패턴
+# 디자인 패턴
+
 # 객체지향 5대 원칙
  - SRP (The Single Responsibility Principle)
  - OCP (The Open Close Principle)
