@@ -1,4 +1,9 @@
 # DesignPattern
+
+### 생성 디자인 패턴
+### 구조 디자인 패턴
+### 행동 디자인 패턴
+
 -1. MVC model2 + Service + Dao  
 -2. 빌더 패턴 (BuilderPattern)  
     - 생성자의 파라미터가 3개 이상인 경우  
