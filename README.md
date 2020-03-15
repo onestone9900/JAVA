@@ -1,11 +1,3 @@
-
-# Version  
-- java          1.8  
-- spring        4.3.25.RELEASE  
-- spring boot   2.1.7.RELEASE  
-- Spring Tools  4 4-4.3.2.RELEASE  
-- Eclipse       2019‑06  
-
 # 아키텍쳐 패턴
 # 디자인 패턴
 
@@ -75,8 +67,12 @@
   
   
  # Java Clean Code
- 
+  
 - 클래스 이름( 명사, 명사구 )
+
+- 문제 영역 = 전문 영역
+
+- 해법 영역 = 프로그래밍 
 
 - 메서드 이름( 동사, 동사구 )
 
