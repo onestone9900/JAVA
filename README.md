@@ -114,7 +114,7 @@
 # EFFECTIVE JAVA
 
  - 객체의 생성과 파괴
-   1. Public 생성자 대신 정적 팩터리 메서드를 고려하라
+   1. Public 생성자 대신 정적 팩터리 메서드를 고려하라 (from, of, valueOf, instance, create, getType, newType, type)
    2. 생성자에 매개변수가 많다면 빌더를 고려하라
    4. 인스턴스화를 막으려거든 private 생성자를 사용하라
    5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라
