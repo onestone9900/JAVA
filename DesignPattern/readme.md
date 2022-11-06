@@ -16,7 +16,7 @@
     - 실행될 기능을 캡슐화 함으로써 기능의 실행을 요구하는 호출자클래스와 실제 기능을 수행하는 수신자 클래스 사이의 의존성 제거  
 -7. 옵저버 패턴 (Observer)  
     - 통보 대상 객체의 관리를 Subject 클래스와 Observer 인터페이스로 일반화한다.  
--8. 데코레이터 패턴 (Decorator Pattern)  
+-8. 데코레이터 패턴 (Decorator Pattern) (블로깅)  
     - 기본 기능에 추가할 수 있는 많은 종류의 부가 기능에서 파생되는 다양한 조합을 동적으로 구현 가능  
 -9. 팩토리 메소드 패턴(Factory Method Pattern) <- Factory  
     - 객체를 생성하는 코드를 별도의 클래스/메서드로 분리함으로써 객체 생성 방식의 변화에 대비  
@@ -31,7 +31,7 @@
 -17. 메멘토 패턴 (Memento Pattern)  
 -18. 플라이웨이트 패턴 (Flyweight Pattern)  
 -19. 프록시 패턴 ( Proxy Pattern)  
--20. 어댑터 패턴 (Adapter Pattern)  
+-20. 어댑터 패턴 (Adapter Pattern)(블로깅)
 
 ---
       
