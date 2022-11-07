@@ -26,7 +26,7 @@
 -12. 브릿지 패턴 (Bridge Pattern)  
 -13. 방문자 패턴 (Visitor Pattern)  
 -14. 책임사슬 패턴 (Chain of Resposibility)  
--15. 퍼사드 패턴 (Facade)  
+-15. 퍼사드 패턴 (Facade)(블로깅)
 -16. 중재자 패턴 (Mediator)  
 -17. 메멘토 패턴 (Memento Pattern)  
 -18. 플라이웨이트 패턴 (Flyweight Pattern)  
